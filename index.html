@@ -1,0 +1,241 @@
+<?php include "process.php"; ?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jason Slocum Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+      
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+    <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+	ga('create', 'UA-56347919-1', 'auto');
+	ga('send', 'pageview');
+      
+      </script>
+  </head>
+  
+  <body>	
+
+    
+
+
+    <div class="parallax" id="bg0" >
+	<div>
+	    <h1>J a s o n &nbsp; S l o c u m</h1>
+	    <h2 id='tag'>Modern&nbsp;<br />Front End&nbsp;<br />Development,<br />Design,<br />UI/UX&nbsp;</h2>
+	</div>
+    </div>
+    
+    <div class="text">
+	<h2>PORTFOLIO</h2>
+    </div>
+    
+    <div class="parallax container" id="bg1">
+
+	<div class='row'>
+            <a data-toggle="modal" data-target=".modal1"><img alt='recent photo shoot' class='img-responsive col-md-4' src='images/img2.png'></a>
+            <a data-toggle="modal" data-target=".modal2"><img alt='recent photo shoot' class='img-responsive col-md-4' src='images/TLP.png'></a>
+            <a data-toggle="modal" data-target=".modal3"><img alt='recent photo shoot' class='img-responsive col-md-4' src='images/img9.png'></a>
+        </div>
+        <div class='row'>
+            <a data-toggle="modal" data-target=".modal4"><img alt='recent photo shoot' class='img-responsive col-md-4' src='images/img5.png'></a>
+            <a data-toggle="modal" data-target=".modal5"><img alt='recent photo shoot' class='img-responsive col-md-4' src='images/img8.png'></a>
+            <a data-toggle="modal" data-target=".modal6"><img alt='recent photo shoot' class='img-responsive col-md-4' src='images/img7.png'></a>
+        </div>
+	
+    </div>
+    
+    <div class="text">
+	<h2>ABOUT ME</h2>
+    </div>
+    
+    <div class="parallax" id="bg2">
+	<p>Driven professional with a broad technical skill set. Strong desire to expand current knowledge and continue to grow skills.
+	Excellent communicator experienced in interpreting instructions and coordinating tasks across diverse groups. Ability to diligently
+	handle multiple projects simultaneously, while meeting deadlines. Thrives in challenging, innovative environments.</p>
+    </div>
+    
+    <div class="text">
+	<h2>CONTACT ME</h2>
+    </div>
+    
+    <div class="parallax" id="bg3">
+	<div class="container">
+
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <form method="POST" action="<?php echo $_SERVER['PHP_SELF'] ?>" role="form" id='myform' name='theform'>
+              <div class="row">
+                <div class="form-group col-xs-12 floating-label-form-group">
+                  <label for="name">Name</label>
+                  <input class="form-control" type="text" name="name" placeholder="Name" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-xs-12 floating-label-form-group">
+                  <label for="phone">Phone Number</label>
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone Number " required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-xs-12 floating-label-form-group">
+                  <label for="message">Message</label>
+                  <textarea type="text" placeholder="Message" name="message" class="form-control" rows="5"></textarea>
+                </div>
+              </div>
+              <br />
+              <div class="row">
+                <div class="form-group col-xs-12">
+                  <button type="submit" class="btn btn-lg btn-success">Send</button>
+                </div>
+              </div>
+	      <span id="msgsuccess" class='error'></span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text">
+	<p class='footer'>Copyright 2014 Jason Slocum</p>
+    </div>
+
+    <div tabindex="-1" class="modal fade modal1"  role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <button class="close" type="button" data-dismiss="modal">×</button>
+		    <h3 class="modal-title">Belong</h3>
+		</div>
+		<div class="modal-body">
+		    <img alt='screenshot from Belong property information website' src='images/img2.png' width='550' height='300'>
+			<p>This application was a project that I made while attending Full Sail University. Technologies used on this are Python, HTML and CSS. When
+			a visitor enters a location, this site pulls up housing information using the Zillow API.</p>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	     </div>
+	</div>
+    </div>
+    <div tabindex="-1" class="modal fade modal2"  role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <button class="close" type="button" data-dismiss="modal">×</button>
+		    <h3 class="modal-title">Teri Lynn Photography</h3>
+		</div>
+		<div class="modal-body">
+		    <img alt='screenshot from a family photography website' src='images/TLP.png' width='550' height='300'>
+			<p>This site was part of my final project for Full Sail University. Technologies being used on this site include
+			HTML, CSS, Javascript, PHP and MySQL. It features a filterable photo gallery, parallax homepage background and a content
+			management system for ease of updating. This site is also quite responsive and scales down nicely for viewing on almost any
+			device.</p><a href='https://github.com/jasonis/FinalProject/tree/master/FINAL_PROJECT'>Check out the code&excl;</a>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	     </div>
+	</div>
+    </div>
+    <div tabindex="-1" class="modal fade modal3"  role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <button class="close" type="button" data-dismiss="modal">×</button>
+		    <h3 class="modal-title">Theatre Downtown</h3>
+		</div>
+		<div class="modal-body">
+		    <img alt='screenshot from a community theatre website' src='images/img9.png' width='550' height='300'>
+			<p>This site was created as a revamp of an existing site for a community theatre. Technologies used are HTML,
+			CSS and Javascript/JQuery.</p><a href='https://github.com/jasonis/theatredowntown'>Check out the code&excl;</a><br>
+			<a href='http://jasonis.github.io/theatredowntown/index.html'>Try it out&excl;</a>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	     </div>
+	</div>
+    </div>
+    <div tabindex="-1" class="modal fade modal4"  role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <button class="close" type="button" data-dismiss="modal">×</button>
+		    <h3 class="modal-title">Music</h3>
+		</div>
+		<div class="modal-body">
+		    <img alt='screenshot from a music cataloguing application' src='images/img5.png' width='550' height='300'>
+			<p>This application was created as a way for collectors of music contained on "vintage" media to be able
+			to catalog their collection. Technologies used here are AngularJS, HTML and CSS</p>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	     </div>
+	</div>
+    </div>
+    <div tabindex="-1" class="modal fade modal5"  role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <button class="close" type="button" data-dismiss="modal">×</button>
+		    <h3 class="modal-title">Weather Now</h3>
+		</div>
+		<div class="modal-body">
+		    <img alt='screenshot from a weather forecast application' src='images/img8.png' width='550' height='300'>
+			<p>This application was created as a project to gather information from an API to give the weather forecast
+			for the selected location. Technologies used here are PHP, HTML and CSS.</p><a href='https://github.com/jasonis/DPfWP/tree/master/weather-app'>Check out the code&excl;</a>
+			<br><a href='http://162.209.74.170/weatherAPI/weatherIndex.php'>Try it out&excl;</a>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	     </div>
+	</div>
+    </div>
+    <div tabindex="-1" class="modal fade modal6"  role="dialog">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		<div class="modal-header">
+		    <button class="close" type="button" data-dismiss="modal">×</button>
+		    <h3 class="modal-title">Employee Directory</h3>
+		</div>
+		<div class="modal-body">
+		    <img alt='screenshot from an employee directory application' src='images/img7.png' width='550' height='300'>
+			<p>This application was created as a way to catalog employees and their personal information. Technologies used here are
+			Javascript, HTML and CSS.</p>
+		</div>
+		<div class="modal-footer">
+		    <button class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	     </div>
+	</div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
+

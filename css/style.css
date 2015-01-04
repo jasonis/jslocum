@@ -1,0 +1,155 @@
+
+
+
+body{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.text {
+    position: relative;
+    height: auto;  
+    background: #1d1d1d;
+    padding: 5px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    z-index: 99;
+    text-align: center;
+    font-size: 4em;
+    /*box-shadow: 0 0 10px rgba( 155, 155, 155, 0.8);*/
+    color: #fcfcfc;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.parallax {
+    position: relative;
+    height: 100%;   
+    background: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    z-index: 9;
+    width: 100%;
+}
+
+/*======================================= main page =======================================*/
+
+#bg0 {
+    background-image: url('../images/bg10.jpg');
+}
+
+h1 {
+    padding: 200px 0 0 0;
+    margin: 0;
+    text-align: center;
+    font-size: 5.4em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #f89009;
+}
+
+#bg0 h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4em;
+    color: #9c9c9c;
+    text-align: right;
+    margin: 0 32.5% 0 0;/*310px     468px*/
+    padding: 0;
+}
+
+bg0 div  {
+    text-align: right;
+}
+
+
+
+/*======================================= portfolio page =======================================*/
+
+
+#bg1 {
+    background-image: url('../images/bg16.jpg');
+    padding: 0 50px 0 50px;
+}
+/*
+#bg1 ul {
+    float: left;
+    width: 300px;
+}
+*/
+#bg1 h2 {
+    text-align: center;
+    color: #e2c70f;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+#bg1 img {
+    border: none;
+    padding: 20px;
+    margin: 0;
+}
+
+#bg1 div {
+    padding: 75px 0 0 0;
+}
+
+/*======================================= about me page =======================================*/
+
+#bg2 {
+    background-image: url('../images/bg10.jpg');
+    width: 100%;
+}
+
+#bg2 p {
+    width: 50%;
+    color: #e6e6e6;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding: 200px 0 0 0;
+}
+
+
+/*======================================= contact page =======================================*/
+
+#bg3 {
+    background-image: url('../images/bg16.jpg');
+    width: 100%;
+}
+
+#bg3 form {
+    padding: 100px 0 0 0;
+    color: #e6e6e6;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#bg3 form button {
+    background-color: #f89009;
+    border: none;
+}
+
+
+.footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15pt;
+}
+
+/*======================================= modal page =======================================*/
+
+.modal-content {
+    background-color: #d5d5d5;
+    color: #4d4d4d;
+}
+
+
+
+
+
+
+
+
+
