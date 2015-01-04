@@ -14,24 +14,24 @@ $(document).ready(function() {
     
     
     function setpos(element, factor) {
-	factor = factor || 2;
-	
-	var offset = $(element).offset();
-	var w = $(window);
-	
-	var posx = (offset.left - w.scrollLeft()) / factor;
-	var posy = (offset.top - w.scrollTop()) / factor;
-	
-	$(element).css('background-position', '50% '+posy+'px');
+		factor = factor || 2;
+		
+		var offset = $(element).offset();
+		var w = $(window);
+		
+		var posx = (offset.left - w.scrollLeft()) / factor;
+		var posy = (offset.top - w.scrollTop()) / factor;
+		
+		$(element).css('background-position', '50% '+posy+'px');
 	
 	// use this to have parallax scrolling vertical and horizontal
 	//$(element).css('background-position', posx+'px '+posy+'px');
     }
     
     $(document).ready(function () {
-	parallax();
-    }).scroll(function () {
-	parallax();
+		parallax();
+	}).scroll(function () {
+		parallax();
     });
 	
        
@@ -44,6 +44,7 @@ $(document).ready(function() {
 	  });
 	});
     })
+
 
 }); 
 
@@ -61,6 +62,8 @@ $('#theform').onfocus = function(){
 document.getElementById('theform').onfocus = function() {
     document.getElementById('msgsuccess').innerHTML = "('Your message has been sent&excl;')";
 }
+
+
 
 
 
